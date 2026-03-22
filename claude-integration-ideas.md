@@ -23,6 +23,21 @@ An interactive artifact with quick-action buttons to get an AI-generated briefin
 - Could integrate with Google Calendar, Gmail, and a messaging API
 - Output should be a clean, scannable briefing format
 
+### Automatic Call Scheduling
+
+A way for Claude to autonomously make phone calls to schedule appointments on your behalf.
+
+**Capabilities to explore:**
+- Detect when an appointment needs to be scheduled (from email, calendar gaps, or user prompt)
+- Place outbound calls using a voice/telephony API (e.g. Twilio, Bland.ai)
+- Conduct a natural conversation to find a mutually available time
+- Confirm and add the appointment directly to the calendar
+
+**Notes:**
+- Could be triggered manually ("schedule a haircut for next week") or automatically based on context
+- Needs a voice AI layer for real-time call conversation
+- Should send a confirmation summary after the call completes
+
 ---
 
 ## Completed / Implemented
